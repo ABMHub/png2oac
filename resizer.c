@@ -21,7 +21,7 @@ void addAltura(FILE* g, FILE* h, int largura) {
 }
 
 void printLargura(FILE* f, FILE *g, FILE *h, int altura, int faltaLarg) {
-    char str[2000];
+    char str[100000];
     for (int i = 0; i < altura; i++){
         fscanf(f, "%s", str);
         fprintf(g, str);
